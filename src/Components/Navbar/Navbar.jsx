@@ -13,8 +13,8 @@ function Navbar() {
   return (
     <div className='navbar'>
         <div className='nav-logo'>
-            <img src={logo} alt="" />
-            <p>SHOPPER</p>
+            <img className='nav-logo-icon' src={logo} alt="" />
+            <p>Thread.Sphere</p>
         </div>
         <ul className='nav-menu'>
             <li onClick={() => setMenu('shop')}>
